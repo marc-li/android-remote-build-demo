@@ -1,0 +1,30 @@
+configs: <
+    dimensions: "os:win"
+    remoteexec_platform: <
+        rbe_instance_basename: "default_instance"
+        properties: <
+            name: "container-image"
+            value: "docker://${YOUR_WINDOWS_IMAGE_HERE}
+        >
+        properties: <
+            name: "OSFamily"
+            value: "Windows"
+        >
+    >
+>
+
+configs: <
+    dimensions: "os:linux"
+    remoteexec_platform: <
+        rbe_instance_basename: "default_instance"
+        properties: <
+            name: "container-image"
+            value: "docker://${YOUR_LINUX_IMAGE_HERE}
+        >
+        properties: <
+            name: "OSFamily"
+            value: "Linux"
+        >
+    >
+>
+

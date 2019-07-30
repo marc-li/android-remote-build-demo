@@ -1,0 +1,20 @@
+{
+  "environmentVariables": [
+    {
+      "name": "GOMA_FALLBACK",
+      "value": "true"
+    },
+    {
+      "name": "GOMA_USE_LOCAL",
+      "value": "false"
+    },
+    {
+      "name": "GOMA_STORE_ONLY",
+      "value": "true"
+    },
+    {
+      "name": "GOMA_IMPLICIT_INPUT_FILES",
+      "value": "${PATH_TO_NDK_CLANG_DEPENDENCIES}"
+	}
+  ]
+}

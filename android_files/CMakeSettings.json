@@ -1,0 +1,20 @@
+{
+
+  "configurations": [
+    {
+      "name": "android-gradle-plugin-predetermined-name",
+      "description": "Remote Build",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildCommandArgs": "-j 100",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_COMPILER_LAUNCHER",
+          "value": "${PATH_TO_gomacc}"
+        }
+      ]
+    }
+  ]
+}
+
